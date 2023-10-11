@@ -28,7 +28,7 @@ namespace Tyuiu.ButakovIK.Sprint2.Task0.V4
             Console.WriteLine("* Написать программу из операций сравнений                                  *");
             Console.WriteLine("* (==, !=, <, >, <=, >=, последовательность операций не должна нарушаться)  *");
             Console.WriteLine("* и арифметических выражений, которая вернет логическую последовательность: *");
-            Console.WriteLine("* (False, True, False, True, False, True)                                   *");
+            Console.WriteLine("* (False, True, Falsе, True, False, True)                                   *");
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
