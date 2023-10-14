@@ -16,7 +16,7 @@ namespace Tyuiu.ButakovIK.Sprint2.Task0.V4.Lib
             res[0] = x == y;
             res[1] = x != y;
             res[2] = x < y;
-            res[3] = x > y;
+            res[3] = x > y
             res[4] = x <= y;
             res[5] = x >= y;
 
