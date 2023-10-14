@@ -8,7 +8,7 @@ namespace Tyuiu.ButakovIK.Sprint2.Task5.V6.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void FindCard()
         {
             DataService ds = new DataService();
             Assert.AreEqual("туз бубен", ds.FindCardNameAndValue(3, 14));

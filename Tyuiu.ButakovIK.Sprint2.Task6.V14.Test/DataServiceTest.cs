@@ -8,7 +8,7 @@ namespace Tyuiu.ButakovIK.Sprint2.Task6.V14.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void FindDayOfTheWeekName()
         {
             DataService ds = new DataService();
             Assert.AreEqual("Воскресенье", ds.FindDayName(2, 6));

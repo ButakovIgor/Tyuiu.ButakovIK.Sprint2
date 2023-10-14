@@ -13,10 +13,10 @@ namespace Tyuiu.ButakovIK.Sprint2.Task6.V14.Lib
         {
 
             if (k < 1 || k > 365)
-                throw new ArgumentException("День в году должен находиться в промежутке от 1 до 365.");
+                throw new ArgumentException("День в году находится в промежутке от 1 до 365.");
 
             if (d < 1 || d > 7)
-                throw new ArgumentException("День недели должен находиться в промежутке от 1 до 7.");
+                throw new ArgumentException("День недели находится в промежутке от 1 до 7.");
 
             int dayOfWeek = ((k + d) - 1) %  7;
 
